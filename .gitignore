@@ -3,9 +3,9 @@ venv/
 .venv/
 env/
 
-# ── Model checkpoints (too large for GitHub) ─────
-checkpoints/*.pt
-checkpoints/*.pth
+# ── Model checkpoints (managed by Git LFS) ───────
+# checkpoints/*.pt   ← now tracked via LFS
+# checkpoints/*.pth  ← now tracked via LFS
 
 # ── Recordings & user data ────────────────────────
 recordings/
