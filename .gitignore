@@ -1,0 +1,41 @@
+# ── Virtual environment ───────────────────────────
+venv/
+.venv/
+env/
+
+# ── Model checkpoints (too large for GitHub) ─────
+checkpoints/*.pt
+checkpoints/*.pth
+
+# ── Recordings & user data ────────────────────────
+recordings/
+logs/*.json
+logs/*.log
+logs/*.html
+logs/*.pdf
+
+# ── Python cache ──────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Jupyter / IPython ────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Pre-computed flows ────────────────────────────
+flows/

@@ -1,0 +1,27 @@
+# Truth in a Blink — Python Dependencies
+# Optimised for macOS Apple Silicon (M3 Max)
+
+# ── Core ML ──────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# ── Computer Vision ──────────────────────────
+opencv-python-headless>=4.8.0
+opencv-contrib-python-headless>=4.8.0   # TV-L1 optical flow (CP2+)
+Pillow>=10.0.0
+mediapipe>=0.10.0                       # Face detection fallback (CP2+)
+
+# ── Data Science ─────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# ── Visualisation & UI ──────────────────────
+streamlit>=1.28.0
+matplotlib>=3.7.0
+plotly>=5.18.0
+
+# ── Utilities ────────────────────────────────
+tqdm>=4.66.0

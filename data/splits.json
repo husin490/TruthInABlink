@@ -1,0 +1,1331 @@
+{
+  "metadata": {
+    "dataset": "RLDD-2016",
+    "n_folds": 5,
+    "seed": 42,
+    "n_subjects": 40,
+    "n_clips": 121,
+    "leakage_proof": true,
+    "split_method": "subject-wise stratified group k-fold",
+    "generator": "build_splits.py",
+    "hash": "2a67057f"
+  },
+  "subject_to_clips": {
+    "Amanda Hayes": [
+      {
+        "clip_id": "trial_lie_001",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_002",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_003",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_004",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_005",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_006",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_truth_057",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_058",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_059",
+        "label": "truthful"
+      }
+    ],
+    "Andrea Sneiderman": [
+      {
+        "clip_id": "trial_lie_007",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_008",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_009",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_010",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_011",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_012",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_013",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_truth_003",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_004",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_005",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_006",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_007",
+        "label": "truthful"
+      }
+    ],
+    "Jodi Arias": [
+      {
+        "clip_id": "trial_lie_014",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_015",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_016",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_017",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_018",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_019",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_020",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_021",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_022",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_023",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_024",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_025",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_026",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_027",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_028",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_029",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_030",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_031",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_truth_054",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_055",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_056",
+        "label": "truthful"
+      }
+    ],
+    "Donna Scrivo": [
+      {
+        "clip_id": "trial_lie_032",
+        "label": "deceptive"
+      }
+    ],
+    "Jamie Hood": [
+      {
+        "clip_id": "trial_lie_033",
+        "label": "deceptive"
+      }
+    ],
+    "Jamie Hood Witness": [
+      {
+        "clip_id": "trial_lie_034",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_truth_039",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_040",
+        "label": "truthful"
+      }
+    ],
+    "Mitchelle Blair": [
+      {
+        "clip_id": "trial_lie_035",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_truth_026",
+        "label": "truthful"
+      }
+    ],
+    "Marissa Devault": [
+      {
+        "clip_id": "trial_lie_036",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_050",
+        "label": "deceptive"
+      }
+    ],
+    "Crystal Mangum": [
+      {
+        "clip_id": "trial_lie_037",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_038",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_039",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_040",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_truth_053",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_060",
+        "label": "truthful"
+      }
+    ],
+    "Robert Dziekanski Spokesman": [
+      {
+        "clip_id": "trial_lie_041",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_042",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_043",
+        "label": "deceptive"
+      }
+    ],
+    "Dyches Hall Hopkins Mayor": [
+      {
+        "clip_id": "trial_lie_044",
+        "label": "deceptive"
+      }
+    ],
+    "Kelly Burke": [
+      {
+        "clip_id": "trial_lie_045",
+        "label": "deceptive"
+      }
+    ],
+    "Carlos Miller Witness": [
+      {
+        "clip_id": "trial_lie_046",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_047",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_048",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_049",
+        "label": "deceptive"
+      }
+    ],
+    "Marissa Devault Lawyer": [
+      {
+        "clip_id": "trial_lie_051",
+        "label": "deceptive"
+      }
+    ],
+    "Scott Peterson": [
+      {
+        "clip_id": "trial_lie_052",
+        "label": "deceptive"
+      }
+    ],
+    "Michael Dunn": [
+      {
+        "clip_id": "trial_lie_053",
+        "label": "deceptive"
+      }
+    ],
+    "Jodi Arias Defense Witness": [
+      {
+        "clip_id": "trial_lie_054",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_055",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_056",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_057",
+        "label": "deceptive"
+      }
+    ],
+    "Lance Armstrong": [
+      {
+        "clip_id": "trial_lie_058",
+        "label": "deceptive"
+      }
+    ],
+    "Candace Conti": [
+      {
+        "clip_id": "trial_lie_059",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_060",
+        "label": "deceptive"
+      },
+      {
+        "clip_id": "trial_lie_061",
+        "label": "deceptive"
+      }
+    ],
+    "Innocence Project Lawyer 1": [
+      {
+        "clip_id": "trial_truth_001",
+        "label": "truthful"
+      }
+    ],
+    "Innocence Project Lawyer 2": [
+      {
+        "clip_id": "trial_truth_002",
+        "label": "truthful"
+      }
+    ],
+    "Jodi Arias Witness": [
+      {
+        "clip_id": "trial_truth_008",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_009",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_010",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_011",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_012",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_013",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_014",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_015",
+        "label": "truthful"
+      }
+    ],
+    "Fernando Bermudez": [
+      {
+        "clip_id": "trial_truth_016",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_017",
+        "label": "truthful"
+      }
+    ],
+    "Chris Ochoa": [
+      {
+        "clip_id": "trial_truth_018",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_019",
+        "label": "truthful"
+      }
+    ],
+    "Steven Barnes": [
+      {
+        "clip_id": "trial_truth_020",
+        "label": "truthful"
+      }
+    ],
+    "Randy Mills": [
+      {
+        "clip_id": "trial_truth_021",
+        "label": "truthful"
+      }
+    ],
+    "Marvin Anderson": [
+      {
+        "clip_id": "trial_truth_022",
+        "label": "truthful"
+      }
+    ],
+    "Alan Newton": [
+      {
+        "clip_id": "trial_truth_023",
+        "label": "truthful"
+      }
+    ],
+    "Ken Wyniemko": [
+      {
+        "clip_id": "trial_truth_024",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_025",
+        "label": "truthful"
+      }
+    ],
+    "Martin Macneill Witness": [
+      {
+        "clip_id": "trial_truth_027",
+        "label": "truthful"
+      }
+    ],
+    "Donna Scrivo Witness": [
+      {
+        "clip_id": "trial_truth_028",
+        "label": "truthful"
+      }
+    ],
+    "Bessman Okafor Witness": [
+      {
+        "clip_id": "trial_truth_029",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_031",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_032",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_033",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_034",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_035",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_036",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_038",
+        "label": "truthful"
+      }
+    ],
+    "James Boyd Witness": [
+      {
+        "clip_id": "trial_truth_030",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_042",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_043",
+        "label": "truthful"
+      }
+    ],
+    "Jonathan Santillan": [
+      {
+        "clip_id": "trial_truth_037",
+        "label": "truthful"
+      }
+    ],
+    "James Boyd Defendant": [
+      {
+        "clip_id": "trial_truth_041",
+        "label": "truthful"
+      }
+    ],
+    "Charles Kimberly Matthews": [
+      {
+        "clip_id": "trial_truth_044",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_045",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_046",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_047",
+        "label": "truthful"
+      },
+      {
+        "clip_id": "trial_truth_048",
+        "label": "truthful"
+      }
+    ],
+    "Mitchelle Blair Witness": [
+      {
+        "clip_id": "trial_truth_049",
+        "label": "truthful"
+      }
+    ],
+    "Carlos Riley": [
+      {
+        "clip_id": "trial_truth_050",
+        "label": "truthful"
+      }
+    ],
+    "Owen Labrie Victim": [
+      {
+        "clip_id": "trial_truth_051",
+        "label": "truthful"
+      }
+    ],
+    "Edgar Collazo": [
+      {
+        "clip_id": "trial_truth_052",
+        "label": "truthful"
+      }
+    ]
+  },
+  "folds": [
+    {
+      "fold_idx": 0,
+      "train": [
+        "trial_lie_001",
+        "trial_lie_002",
+        "trial_lie_003",
+        "trial_lie_004",
+        "trial_lie_005",
+        "trial_lie_006",
+        "trial_lie_034",
+        "trial_lie_035",
+        "trial_lie_036",
+        "trial_lie_037",
+        "trial_lie_038",
+        "trial_lie_039",
+        "trial_lie_040",
+        "trial_lie_045",
+        "trial_lie_050",
+        "trial_lie_051",
+        "trial_lie_054",
+        "trial_lie_055",
+        "trial_lie_056",
+        "trial_lie_057",
+        "trial_lie_058",
+        "trial_lie_059",
+        "trial_lie_060",
+        "trial_lie_061",
+        "trial_truth_002",
+        "trial_truth_008",
+        "trial_truth_009",
+        "trial_truth_010",
+        "trial_truth_011",
+        "trial_truth_012",
+        "trial_truth_013",
+        "trial_truth_014",
+        "trial_truth_015",
+        "trial_truth_016",
+        "trial_truth_017",
+        "trial_truth_018",
+        "trial_truth_019",
+        "trial_truth_020",
+        "trial_truth_021",
+        "trial_truth_022",
+        "trial_truth_023",
+        "trial_truth_024",
+        "trial_truth_025",
+        "trial_truth_026",
+        "trial_truth_027",
+        "trial_truth_028",
+        "trial_truth_029",
+        "trial_truth_030",
+        "trial_truth_031",
+        "trial_truth_032",
+        "trial_truth_033",
+        "trial_truth_034",
+        "trial_truth_035",
+        "trial_truth_036",
+        "trial_truth_038",
+        "trial_truth_039",
+        "trial_truth_040",
+        "trial_truth_041",
+        "trial_truth_042",
+        "trial_truth_043",
+        "trial_truth_044",
+        "trial_truth_045",
+        "trial_truth_046",
+        "trial_truth_047",
+        "trial_truth_048",
+        "trial_truth_049",
+        "trial_truth_050",
+        "trial_truth_053",
+        "trial_truth_057",
+        "trial_truth_058",
+        "trial_truth_059",
+        "trial_truth_060"
+      ],
+      "val": [
+        "trial_lie_007",
+        "trial_lie_008",
+        "trial_lie_009",
+        "trial_lie_010",
+        "trial_lie_011",
+        "trial_lie_012",
+        "trial_lie_013",
+        "trial_lie_041",
+        "trial_lie_042",
+        "trial_lie_043",
+        "trial_lie_044",
+        "trial_lie_046",
+        "trial_lie_047",
+        "trial_lie_048",
+        "trial_lie_049",
+        "trial_lie_052",
+        "trial_lie_053",
+        "trial_truth_003",
+        "trial_truth_004",
+        "trial_truth_005",
+        "trial_truth_006",
+        "trial_truth_007",
+        "trial_truth_037",
+        "trial_truth_051"
+      ],
+      "test": [
+        "trial_lie_014",
+        "trial_lie_015",
+        "trial_lie_016",
+        "trial_lie_017",
+        "trial_lie_018",
+        "trial_lie_019",
+        "trial_lie_020",
+        "trial_lie_021",
+        "trial_lie_022",
+        "trial_lie_023",
+        "trial_lie_024",
+        "trial_lie_025",
+        "trial_lie_026",
+        "trial_lie_027",
+        "trial_lie_028",
+        "trial_lie_029",
+        "trial_lie_030",
+        "trial_lie_031",
+        "trial_lie_032",
+        "trial_lie_033",
+        "trial_truth_001",
+        "trial_truth_052",
+        "trial_truth_054",
+        "trial_truth_055",
+        "trial_truth_056"
+      ],
+      "stats": {
+        "train": {
+          "deceptive": 24,
+          "truthful": 48,
+          "total": 72
+        },
+        "val": {
+          "deceptive": 17,
+          "truthful": 7,
+          "total": 24
+        },
+        "test": {
+          "deceptive": 20,
+          "truthful": 5,
+          "total": 25
+        },
+        "n_train_subjects": 27,
+        "n_val_subjects": 8,
+        "n_test_subjects": 5
+      }
+    },
+    {
+      "fold_idx": 1,
+      "train": [
+        "trial_lie_014",
+        "trial_lie_015",
+        "trial_lie_016",
+        "trial_lie_017",
+        "trial_lie_018",
+        "trial_lie_019",
+        "trial_lie_020",
+        "trial_lie_021",
+        "trial_lie_022",
+        "trial_lie_023",
+        "trial_lie_024",
+        "trial_lie_025",
+        "trial_lie_026",
+        "trial_lie_027",
+        "trial_lie_028",
+        "trial_lie_029",
+        "trial_lie_030",
+        "trial_lie_031",
+        "trial_lie_032",
+        "trial_lie_033",
+        "trial_lie_034",
+        "trial_lie_036",
+        "trial_lie_037",
+        "trial_lie_038",
+        "trial_lie_039",
+        "trial_lie_040",
+        "trial_lie_050",
+        "trial_lie_058",
+        "trial_truth_001",
+        "trial_truth_002",
+        "trial_truth_008",
+        "trial_truth_009",
+        "trial_truth_010",
+        "trial_truth_011",
+        "trial_truth_012",
+        "trial_truth_013",
+        "trial_truth_014",
+        "trial_truth_015",
+        "trial_truth_016",
+        "trial_truth_017",
+        "trial_truth_020",
+        "trial_truth_021",
+        "trial_truth_022",
+        "trial_truth_023",
+        "trial_truth_024",
+        "trial_truth_025",
+        "trial_truth_027",
+        "trial_truth_028",
+        "trial_truth_029",
+        "trial_truth_030",
+        "trial_truth_031",
+        "trial_truth_032",
+        "trial_truth_033",
+        "trial_truth_034",
+        "trial_truth_035",
+        "trial_truth_036",
+        "trial_truth_038",
+        "trial_truth_039",
+        "trial_truth_040",
+        "trial_truth_041",
+        "trial_truth_042",
+        "trial_truth_043",
+        "trial_truth_044",
+        "trial_truth_045",
+        "trial_truth_046",
+        "trial_truth_047",
+        "trial_truth_048",
+        "trial_truth_052",
+        "trial_truth_053",
+        "trial_truth_054",
+        "trial_truth_055",
+        "trial_truth_056",
+        "trial_truth_060"
+      ],
+      "val": [
+        "trial_lie_001",
+        "trial_lie_002",
+        "trial_lie_003",
+        "trial_lie_004",
+        "trial_lie_005",
+        "trial_lie_006",
+        "trial_lie_035",
+        "trial_lie_045",
+        "trial_lie_051",
+        "trial_lie_054",
+        "trial_lie_055",
+        "trial_lie_056",
+        "trial_lie_057",
+        "trial_lie_059",
+        "trial_lie_060",
+        "trial_lie_061",
+        "trial_truth_018",
+        "trial_truth_019",
+        "trial_truth_026",
+        "trial_truth_049",
+        "trial_truth_050",
+        "trial_truth_057",
+        "trial_truth_058",
+        "trial_truth_059"
+      ],
+      "test": [
+        "trial_lie_007",
+        "trial_lie_008",
+        "trial_lie_009",
+        "trial_lie_010",
+        "trial_lie_011",
+        "trial_lie_012",
+        "trial_lie_013",
+        "trial_lie_041",
+        "trial_lie_042",
+        "trial_lie_043",
+        "trial_lie_044",
+        "trial_lie_046",
+        "trial_lie_047",
+        "trial_lie_048",
+        "trial_lie_049",
+        "trial_lie_052",
+        "trial_lie_053",
+        "trial_truth_003",
+        "trial_truth_004",
+        "trial_truth_005",
+        "trial_truth_006",
+        "trial_truth_007",
+        "trial_truth_037",
+        "trial_truth_051"
+      ],
+      "stats": {
+        "train": {
+          "deceptive": 28,
+          "truthful": 45,
+          "total": 73
+        },
+        "val": {
+          "deceptive": 16,
+          "truthful": 8,
+          "total": 24
+        },
+        "test": {
+          "deceptive": 17,
+          "truthful": 7,
+          "total": 24
+        },
+        "n_train_subjects": 23,
+        "n_val_subjects": 9,
+        "n_test_subjects": 8
+      }
+    },
+    {
+      "fold_idx": 2,
+      "train": [
+        "trial_lie_007",
+        "trial_lie_008",
+        "trial_lie_009",
+        "trial_lie_010",
+        "trial_lie_011",
+        "trial_lie_012",
+        "trial_lie_013",
+        "trial_lie_014",
+        "trial_lie_015",
+        "trial_lie_016",
+        "trial_lie_017",
+        "trial_lie_018",
+        "trial_lie_019",
+        "trial_lie_020",
+        "trial_lie_021",
+        "trial_lie_022",
+        "trial_lie_023",
+        "trial_lie_024",
+        "trial_lie_025",
+        "trial_lie_026",
+        "trial_lie_027",
+        "trial_lie_028",
+        "trial_lie_029",
+        "trial_lie_030",
+        "trial_lie_031",
+        "trial_lie_032",
+        "trial_lie_033",
+        "trial_lie_034",
+        "trial_lie_036",
+        "trial_lie_041",
+        "trial_lie_042",
+        "trial_lie_043",
+        "trial_lie_044",
+        "trial_lie_046",
+        "trial_lie_047",
+        "trial_lie_048",
+        "trial_lie_049",
+        "trial_lie_050",
+        "trial_lie_052",
+        "trial_lie_053",
+        "trial_lie_058",
+        "trial_truth_001",
+        "trial_truth_002",
+        "trial_truth_003",
+        "trial_truth_004",
+        "trial_truth_005",
+        "trial_truth_006",
+        "trial_truth_007",
+        "trial_truth_008",
+        "trial_truth_009",
+        "trial_truth_010",
+        "trial_truth_011",
+        "trial_truth_012",
+        "trial_truth_013",
+        "trial_truth_014",
+        "trial_truth_015",
+        "trial_truth_021",
+        "trial_truth_022",
+        "trial_truth_024",
+        "trial_truth_025",
+        "trial_truth_037",
+        "trial_truth_039",
+        "trial_truth_040",
+        "trial_truth_044",
+        "trial_truth_045",
+        "trial_truth_046",
+        "trial_truth_047",
+        "trial_truth_048",
+        "trial_truth_051",
+        "trial_truth_052",
+        "trial_truth_054",
+        "trial_truth_055",
+        "trial_truth_056"
+      ],
+      "val": [
+        "trial_lie_037",
+        "trial_lie_038",
+        "trial_lie_039",
+        "trial_lie_040",
+        "trial_truth_016",
+        "trial_truth_017",
+        "trial_truth_020",
+        "trial_truth_023",
+        "trial_truth_027",
+        "trial_truth_028",
+        "trial_truth_029",
+        "trial_truth_030",
+        "trial_truth_031",
+        "trial_truth_032",
+        "trial_truth_033",
+        "trial_truth_034",
+        "trial_truth_035",
+        "trial_truth_036",
+        "trial_truth_038",
+        "trial_truth_041",
+        "trial_truth_042",
+        "trial_truth_043",
+        "trial_truth_053",
+        "trial_truth_060"
+      ],
+      "test": [
+        "trial_lie_001",
+        "trial_lie_002",
+        "trial_lie_003",
+        "trial_lie_004",
+        "trial_lie_005",
+        "trial_lie_006",
+        "trial_lie_035",
+        "trial_lie_045",
+        "trial_lie_051",
+        "trial_lie_054",
+        "trial_lie_055",
+        "trial_lie_056",
+        "trial_lie_057",
+        "trial_lie_059",
+        "trial_lie_060",
+        "trial_lie_061",
+        "trial_truth_018",
+        "trial_truth_019",
+        "trial_truth_026",
+        "trial_truth_049",
+        "trial_truth_050",
+        "trial_truth_057",
+        "trial_truth_058",
+        "trial_truth_059"
+      ],
+      "stats": {
+        "train": {
+          "deceptive": 41,
+          "truthful": 32,
+          "total": 73
+        },
+        "val": {
+          "deceptive": 4,
+          "truthful": 20,
+          "total": 24
+        },
+        "test": {
+          "deceptive": 16,
+          "truthful": 8,
+          "total": 24
+        },
+        "n_train_subjects": 22,
+        "n_val_subjects": 9,
+        "n_test_subjects": 9
+      }
+    },
+    {
+      "fold_idx": 3,
+      "train": [
+        "trial_lie_001",
+        "trial_lie_002",
+        "trial_lie_003",
+        "trial_lie_004",
+        "trial_lie_005",
+        "trial_lie_006",
+        "trial_lie_007",
+        "trial_lie_008",
+        "trial_lie_009",
+        "trial_lie_010",
+        "trial_lie_011",
+        "trial_lie_012",
+        "trial_lie_013",
+        "trial_lie_014",
+        "trial_lie_015",
+        "trial_lie_016",
+        "trial_lie_017",
+        "trial_lie_018",
+        "trial_lie_019",
+        "trial_lie_020",
+        "trial_lie_021",
+        "trial_lie_022",
+        "trial_lie_023",
+        "trial_lie_024",
+        "trial_lie_025",
+        "trial_lie_026",
+        "trial_lie_027",
+        "trial_lie_028",
+        "trial_lie_029",
+        "trial_lie_030",
+        "trial_lie_031",
+        "trial_lie_032",
+        "trial_lie_033",
+        "trial_lie_035",
+        "trial_lie_041",
+        "trial_lie_042",
+        "trial_lie_043",
+        "trial_lie_044",
+        "trial_lie_045",
+        "trial_lie_046",
+        "trial_lie_047",
+        "trial_lie_048",
+        "trial_lie_049",
+        "trial_lie_051",
+        "trial_lie_052",
+        "trial_lie_053",
+        "trial_lie_054",
+        "trial_lie_055",
+        "trial_lie_056",
+        "trial_lie_057",
+        "trial_lie_059",
+        "trial_lie_060",
+        "trial_lie_061",
+        "trial_truth_001",
+        "trial_truth_003",
+        "trial_truth_004",
+        "trial_truth_005",
+        "trial_truth_006",
+        "trial_truth_007",
+        "trial_truth_018",
+        "trial_truth_019",
+        "trial_truth_026",
+        "trial_truth_037",
+        "trial_truth_049",
+        "trial_truth_050",
+        "trial_truth_051",
+        "trial_truth_052",
+        "trial_truth_054",
+        "trial_truth_055",
+        "trial_truth_056",
+        "trial_truth_057",
+        "trial_truth_058",
+        "trial_truth_059"
+      ],
+      "val": [
+        "trial_lie_034",
+        "trial_lie_036",
+        "trial_lie_050",
+        "trial_lie_058",
+        "trial_truth_002",
+        "trial_truth_008",
+        "trial_truth_009",
+        "trial_truth_010",
+        "trial_truth_011",
+        "trial_truth_012",
+        "trial_truth_013",
+        "trial_truth_014",
+        "trial_truth_015",
+        "trial_truth_021",
+        "trial_truth_022",
+        "trial_truth_024",
+        "trial_truth_025",
+        "trial_truth_039",
+        "trial_truth_040",
+        "trial_truth_044",
+        "trial_truth_045",
+        "trial_truth_046",
+        "trial_truth_047",
+        "trial_truth_048"
+      ],
+      "test": [
+        "trial_lie_037",
+        "trial_lie_038",
+        "trial_lie_039",
+        "trial_lie_040",
+        "trial_truth_016",
+        "trial_truth_017",
+        "trial_truth_020",
+        "trial_truth_023",
+        "trial_truth_027",
+        "trial_truth_028",
+        "trial_truth_029",
+        "trial_truth_030",
+        "trial_truth_031",
+        "trial_truth_032",
+        "trial_truth_033",
+        "trial_truth_034",
+        "trial_truth_035",
+        "trial_truth_036",
+        "trial_truth_038",
+        "trial_truth_041",
+        "trial_truth_042",
+        "trial_truth_043",
+        "trial_truth_053",
+        "trial_truth_060"
+      ],
+      "stats": {
+        "train": {
+          "deceptive": 53,
+          "truthful": 20,
+          "total": 73
+        },
+        "val": {
+          "deceptive": 4,
+          "truthful": 20,
+          "total": 24
+        },
+        "test": {
+          "deceptive": 4,
+          "truthful": 20,
+          "total": 24
+        },
+        "n_train_subjects": 22,
+        "n_val_subjects": 9,
+        "n_test_subjects": 9
+      }
+    },
+    {
+      "fold_idx": 4,
+      "train": [
+        "trial_lie_001",
+        "trial_lie_002",
+        "trial_lie_003",
+        "trial_lie_004",
+        "trial_lie_005",
+        "trial_lie_006",
+        "trial_lie_007",
+        "trial_lie_008",
+        "trial_lie_009",
+        "trial_lie_010",
+        "trial_lie_011",
+        "trial_lie_012",
+        "trial_lie_013",
+        "trial_lie_035",
+        "trial_lie_037",
+        "trial_lie_038",
+        "trial_lie_039",
+        "trial_lie_040",
+        "trial_lie_041",
+        "trial_lie_042",
+        "trial_lie_043",
+        "trial_lie_044",
+        "trial_lie_045",
+        "trial_lie_046",
+        "trial_lie_047",
+        "trial_lie_048",
+        "trial_lie_049",
+        "trial_lie_051",
+        "trial_lie_052",
+        "trial_lie_053",
+        "trial_lie_054",
+        "trial_lie_055",
+        "trial_lie_056",
+        "trial_lie_057",
+        "trial_lie_059",
+        "trial_lie_060",
+        "trial_lie_061",
+        "trial_truth_003",
+        "trial_truth_004",
+        "trial_truth_005",
+        "trial_truth_006",
+        "trial_truth_007",
+        "trial_truth_016",
+        "trial_truth_017",
+        "trial_truth_018",
+        "trial_truth_019",
+        "trial_truth_020",
+        "trial_truth_023",
+        "trial_truth_026",
+        "trial_truth_027",
+        "trial_truth_028",
+        "trial_truth_029",
+        "trial_truth_030",
+        "trial_truth_031",
+        "trial_truth_032",
+        "trial_truth_033",
+        "trial_truth_034",
+        "trial_truth_035",
+        "trial_truth_036",
+        "trial_truth_037",
+        "trial_truth_038",
+        "trial_truth_041",
+        "trial_truth_042",
+        "trial_truth_043",
+        "trial_truth_049",
+        "trial_truth_050",
+        "trial_truth_051",
+        "trial_truth_053",
+        "trial_truth_057",
+        "trial_truth_058",
+        "trial_truth_059",
+        "trial_truth_060"
+      ],
+      "val": [
+        "trial_lie_014",
+        "trial_lie_015",
+        "trial_lie_016",
+        "trial_lie_017",
+        "trial_lie_018",
+        "trial_lie_019",
+        "trial_lie_020",
+        "trial_lie_021",
+        "trial_lie_022",
+        "trial_lie_023",
+        "trial_lie_024",
+        "trial_lie_025",
+        "trial_lie_026",
+        "trial_lie_027",
+        "trial_lie_028",
+        "trial_lie_029",
+        "trial_lie_030",
+        "trial_lie_031",
+        "trial_lie_032",
+        "trial_lie_033",
+        "trial_truth_001",
+        "trial_truth_052",
+        "trial_truth_054",
+        "trial_truth_055",
+        "trial_truth_056"
+      ],
+      "test": [
+        "trial_lie_034",
+        "trial_lie_036",
+        "trial_lie_050",
+        "trial_lie_058",
+        "trial_truth_002",
+        "trial_truth_008",
+        "trial_truth_009",
+        "trial_truth_010",
+        "trial_truth_011",
+        "trial_truth_012",
+        "trial_truth_013",
+        "trial_truth_014",
+        "trial_truth_015",
+        "trial_truth_021",
+        "trial_truth_022",
+        "trial_truth_024",
+        "trial_truth_025",
+        "trial_truth_039",
+        "trial_truth_040",
+        "trial_truth_044",
+        "trial_truth_045",
+        "trial_truth_046",
+        "trial_truth_047",
+        "trial_truth_048"
+      ],
+      "stats": {
+        "train": {
+          "deceptive": 37,
+          "truthful": 35,
+          "total": 72
+        },
+        "val": {
+          "deceptive": 20,
+          "truthful": 5,
+          "total": 25
+        },
+        "test": {
+          "deceptive": 4,
+          "truthful": 20,
+          "total": 24
+        },
+        "n_train_subjects": 26,
+        "n_val_subjects": 5,
+        "n_test_subjects": 9
+      }
+    }
+  ]
+}
